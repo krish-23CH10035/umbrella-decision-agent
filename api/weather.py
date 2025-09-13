@@ -15,7 +15,7 @@ def get_weather_advice():
         return jsonify({"error": "City parameter is required"}), 400
 
     # Securely get the API key that we will set up on the server later
-    api_key = os.environ.get("62673c604484aafa925832f7110dd56c")
+    api_key = os.environ.get("OPENWEATHER_API_KEY")
     if not api_key:
         return jsonify({"error": "Weather API key not configured"}), 500
 
