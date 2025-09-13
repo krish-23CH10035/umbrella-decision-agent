@@ -1,0 +1,8 @@
+body { font-family: sans-serif; background-color: #f0f8ff; }
+.container { max-width: 500px; margin: 50px auto; padding: 20px; text-align: center; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 8px; }
+input { width: 80%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 4px; }
+button { width: 85%; padding: 10px; margin: 10px 0; background-color: #3498db; color: white; border: none; cursor: pointer; font-size: 16px; border-radius: 4px; }
+button:hover { background-color: #2980b9; }
+#result { font-size: 24px; margin-top: 20px; font-weight: bold; }
+.yes { color: #c0392b; } /* Red text for "Yes" */
+.no { color: #27ae60; } /* Green text for "No" */
